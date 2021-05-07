@@ -1,0 +1,7 @@
+@Select加载方式
+org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.MapperAnnotationBuilder
+ >org.apache.ibatis.binding.MapperRegistry.addMapper 构造函数
+    >org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse
+      >org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource
+   >org.apache.ibatis.session.Configuration.addMapper
+     >org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement

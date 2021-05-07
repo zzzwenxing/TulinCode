@@ -1,0 +1,26 @@
+version: '2'              #docker的文件格式版本
+services:
+  eureka-server:                 #docker服务名
+    image: eureka-server    #docker镜像
+    ports:
+      - "1001:1001"
+  config-server: 
+    image: config-server
+    ports:  
+      - "2001:2001" 
+  service-member:    
+    image: service-member
+    ports: 
+      - "8001:8001"
+  service-order:    
+    image: service-order
+    ports: 
+      - "8002:8002"
+  service-product:    
+    image: service-product
+    ports: 
+      - "8003:8003"
+  mall-portal:    
+    image: mall-portal
+    ports: 
+      - "9001:9001"

@@ -1,0 +1,22 @@
+# tomcat
+server:
+  port: 1001
+
+# eureka
+eureka:
+  instance:
+    hostname: eureka-server
+    prefer-ip-address: true
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 30000
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+# spring
+spring:
+  application:
+    name: erureka-server

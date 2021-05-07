@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tuling.mapper.ProductInfoMapper">
+
+    <update id="updateProductStoreById" parameterType="int">
+        update product_info set product_num=product_num-1 where product_no=#{productNo}
+        and product_num>0
+    </update>
+
+    <select id="getById" parameterType="int" resultType="com.tuling.entity.ProductInfo">
+        select * from product_info where product_no=#{productNo}
+    </select>
+</mapper>

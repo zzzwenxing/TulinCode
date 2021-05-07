@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: prod
+---
+spring:
+  profiles: test
+  application:
+    name: tulingvip05-ms-test
+server:
+  port: 8081
+---
+spring:
+  profiles: prod
+  application:
+    name: tulingvip05-ms-prod
+server:
+  port: 8088

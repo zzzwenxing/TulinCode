@@ -1,0 +1,35 @@
+group 'org.springframework'
+version '5.0.15.BUILD-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile(group:"org.springframework.data",name: "spring-data-redis",version: "2.0.9.RELEASE" )
+    compile(group:"redis.clients",name: "jedis",version: "2.9.0" )
+    compile("org.projectlombok:lombok:1.18.4")
+    compile("javax.inject:javax.inject:1")
+    optional(project(":spring-context"))
+    compile("ch.qos.logback:logback-core:1.1.2")
+    compile("ch.qos.logback:logback-classic:1.1.2")
+    compile("org.slf4j:slf4j-api:1.7.7")
+    compile group: 'com.fasterxml.jackson.core',name: 'jackson-core',version:'2.9.4'
+    compile group: 'com.fasterxml.jackson.core',name: 'jackson-annotations',version:'2.9.4'
+    compile group: 'com.fasterxml.jackson.core',name: 'jackson-databind',version:'2.9.4'
+
+}
+
+task "create-dirs" << {
+    sourceSets*.java.srcDirs*.each {
+        it.mkdirs()
+    }
+    sourceSets*.resources.srcDirs*.each{
+        it.midirs()
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tuling.mapper.OrderInfoMapper">
+
+    <insert id="saveOrderInfo" parameterType="com.tuling.entity.OrderInfo">
+        INSERT INTO order_info(order_no,create_time,update_time,user_name,money,product_no,order_status)
+        VALUES(#{orderNo},#{createTime},#{updateTime},#{userName},#{money},#{productNo},#{orderStatus})
+    </insert>
+
+    <delete id="updateOrderStatusById" parameterType="map">
+        update order_info set order_status=#{order_status} where order_no = #{orderNo}
+        and order_stauts=0
+    </delete>
+</mapper>

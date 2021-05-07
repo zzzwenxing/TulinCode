@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mq-reliabledelivery-deleycheck-order/mq-reliabledelivery-deleycheck-order.iml" filepath="$PROJECT_DIR$/mq-reliabledelivery-deleycheck-order/mq-reliabledelivery-deleycheck-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mq-reliabledelivery-dtt-order/mq-reliabledelivery-dtt-order.iml" filepath="$PROJECT_DIR$/mq-reliabledelivery-dtt-order/mq-reliabledelivery-dtt-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-reliabledelivery-deleycheck-callback/tuling-reliabledelivery-deleycheck-callback.iml" filepath="$PROJECT_DIR$/tuling-reliabledelivery-deleycheck-callback/tuling-reliabledelivery-deleycheck-callback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-reliabledelivery-deleycheck-product/tuling-reliabledelivery-deleycheck-product.iml" filepath="$PROJECT_DIR$/tuling-reliabledelivery-deleycheck-product/tuling-reliabledelivery-deleycheck-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-reliabledelivery-dtt-product/tuling-reliabledelivery-dtt-product.iml" filepath="$PROJECT_DIR$/tuling-reliabledelivery-dtt-product/tuling-reliabledelivery-dtt-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-rabbitmq.iml" filepath="$PROJECT_DIR$/tulingvip-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-rabbitmq-advancedfeatures/tulingvip-rabbitmq-advancedfeatures.iml" filepath="$PROJECT_DIR$/tulingvip-rabbitmq-advancedfeatures/tulingvip-rabbitmq-advancedfeatures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-rabbitmq-quickstart/tulingvip-rabbitmq-quickstart.iml" filepath="$PROJECT_DIR$/tulingvip-rabbitmq-quickstart/tulingvip-rabbitmq-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-rabbitmq-springwithrabbitmq/tulingvip-rabbitmq-springwithrabbitmq.iml" filepath="$PROJECT_DIR$/tulingvip-rabbitmq-springwithrabbitmq/tulingvip-rabbitmq-springwithrabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-springboot-rabbitmq-consumer/tulingvip-springboot-rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/tulingvip-springboot-rabbitmq-consumer/tulingvip-springboot-rabbitmq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-springboot-rabbitmq-producer/tulingvip-springboot-rabbitmq-producer.iml" filepath="$PROJECT_DIR$/tulingvip-springboot-rabbitmq-producer/tulingvip-springboot-rabbitmq-producer.iml" />
+    </modules>
+  </component>
+</project>

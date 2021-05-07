@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: stock-service
+
+  cloud:
+    nacos:
+      discovery:
+        # 指定nacos server的地址
+        server-addr: 192.168.31.60:8848
+        # 指定集群名称
+        cluster-name: BJ
+        metadata:
+          version: v1

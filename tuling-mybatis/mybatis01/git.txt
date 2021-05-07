@@ -1,0 +1,40 @@
+如何使用git将分支branch合并到主干master上
+对于一人独立使用git进行系统开发时，branch分支相当于版本(Version)，如果每次都将新的分支branch提交到GitHub上，则会在GitHub中产生相应的新分支。那么如何将开发完毕的新分支合并到主干master上，而且还保留原有分支信息呢？
+
+新建分支并切换
+git chechout -b <branchName>
+1
+这样就切换到新建的分支上了，接着我们在新建的分支上进行系统开发，假设修改了README.MD中的内容，添加了下面一句：
+
+增加系统维护模块
+1
+开发完毕后需要在当前分支上提交修改后的文件，使用如下命令：
+
+git add README.MD
+git commit -m "增加系统维护模块"
+1
+2
+切换到主干master
+使用如下命令从当前分支切换到主干master上：
+
+git checkout master
+1
+合并某个分支到主干master
+使用如下命令合并分支：
+
+git merge <branchName>
+1
+合并后删除分支信息
+使用如下命令删除分支：
+
+git branch -d <branchName>
+1
+查看所有分支信息
+使用如下命令查看所有分支：
+
+git branch -a
+1
+签出某个分支
+使用如下命令删除分支：
+
+git branch -a

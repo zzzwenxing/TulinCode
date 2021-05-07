@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/batch/BatchProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/batch/ListSplitter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/broadcast/BroadcastConsumer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/broadcast/BroadcastProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/filter/FilterConsumer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/filter/FilterProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/order/OrderedConsumer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/order/OrderedProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/schedule/ScheduledMessageConsumer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/schedule/ScheduledMessageProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/simple/consumer/Consumer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/simple/producer/AsyncProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/simple/producer/OnewayProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/simple/producer/SyncProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/transaction/TransactionListenerImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/java/com/it/edu/mq/transaction/TransactionProducer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-rocketmq-base/src/main/resources/logback.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

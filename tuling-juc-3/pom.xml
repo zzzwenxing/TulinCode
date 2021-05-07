@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+	<modules>
+		<module><![CDATA[JMM&volatile-vip-course01]]></module>
+        <module>synchronized-Lock-AQS-vip-course02</module>
+        <module>juc-tools-vip-course03</module>
+        <module>Atomic-Unsafe-vip-course04</module>
+        <module>collection-Queue-vip-course05</module>
+        <module>Executor-vip-course06</module>
+    </modules>
+
+	<groupId>com.it.edu</groupId>
+	<artifactId>java-vip-course</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>tuling-juc-3</name>
+	<description>vip-course</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.4</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tuling.mapper.OrderInfoMapper">
+
+    <insert id="saveOrderInfo" parameterType="com.tuling.entity.OrderInfo">
+        INSERT INTO order_info(order_no,create_time,update_time,user_name,money,product_no)
+        VALUES(#{orderNo},#{createTime},#{updateTime},#{userName},#{money},#{productNo})
+    </insert>
+</mapper>

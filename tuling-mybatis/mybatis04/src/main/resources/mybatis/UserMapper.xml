@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- namespace 当基于XML进行配置的时候是根据namespace+id来拼接进行SQL操作 -->
+<mapper namespace="com.jiagouedu.mapper.UserMapper">
+    <!-- select 查询 -->
+    <select id="getUser" resultType="com.jiagouedu.pojo.User">
+        select *
+        from USER where id=%d
+    </select>
+</mapper>

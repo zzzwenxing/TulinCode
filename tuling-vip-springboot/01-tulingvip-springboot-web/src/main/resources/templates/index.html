@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎页</title>
+</head>
+
+
+<!--
+<script th:href="@{/webjars/jquery/3.4.0/jquery.js}"></script>
+-->
+<script src="asserts/js/jquery.js"></script>
+<script>
+    $(function(){
+        $('#queryUserInfo').click(function(){
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:9001/order-service/order/queryOrdersByUserId/1",
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                    alert(JSON.stringify(data));
+                }
+            });
+        });
+    });
+</script>
+<body>
+    <input id="queryUserInfo" value="测试跨越" name="queryUserInfo" type="button"/>
+</body>
+</html>

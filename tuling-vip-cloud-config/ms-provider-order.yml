@@ -1,0 +1,31 @@
+spring:
+    profiles:
+      active: prod
+busi:
+  ops: Y
+---
+server:
+  port: 8002
+spring:
+  datasource:
+    druid:
+      username: root
+      password: 123456
+      jdbcUrl: jdbc:mysql://47.104.128.12:3306/tuling-cloud03
+      driver-class-name: com.mysql.jdbc.Driver
+  profiles: dev
+  application:
+      name: ms-provider-order
+---
+spring:
+  datasource:
+    druid:
+      username: root
+      password: 123456
+      jdbcUrl: jdbc:mysql://47.104.128.12:3306/tuling-cloud02
+      driver-class-name: com.mysql.jdbc.Driver
+  profiles: prod
+  application:
+      name: ms-provider-order
+server:
+  port: 8003

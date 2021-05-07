@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tuling.mapper.DeptMapper">
+
+	<!--开启二级缓存-->
+	<cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>
+
+    <select id="findOne" parameterType="Integer" resultType="Dept">
+        select * from dept where id = #{id}
+    </select>
+
+    <select id="list" resultType="com.tuling.entity.Dept">
+        select * from dept
+    </select>
+
+	<select id="findDepts" resultType="com.tuling.entity.Dept" parameterType="list">
+		select * from dept
+		<where>
+			id IN
+			<foreach collection="list" item="id" open="(" separator="," close=")">
+				#{id}
+			</foreach>
+		</where>
+	</select>
+
+	<select id="findDeptByIdAndName" resultType="com.tuling.entity.Dept" parameterType="map">
+		select * from dept
+		<where>
+			<if test="id!=null and id!=''">
+				id=#{id}
+			</if>
+
+			<if test="name!=null and name!=''">
+				and department_name=#{name}
+			</if>
+		</where>
+	</select>
+
+    <insert id="save" parameterType="Dept" keyProperty="id" useGeneratedKeys="true">
+        insert into dept(department_name) values(#{departmentName})
+    </insert>
+</mapper>

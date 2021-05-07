@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: tulingspc01-springboot-war
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zhuwei
+Implementation-Vendor-Id: com.tuling
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_131
+Main-Class: ${start-class}
+

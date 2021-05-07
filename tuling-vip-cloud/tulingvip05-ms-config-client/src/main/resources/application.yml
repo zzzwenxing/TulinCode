@@ -1,0 +1,5 @@
+spring:
+  application:
+    name:  MsConfigClient
+server:
+  port: 8082

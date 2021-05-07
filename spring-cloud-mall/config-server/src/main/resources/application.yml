@@ -1,0 +1,38 @@
+# tomcat
+server:
+  port: 2001
+
+# eureka
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+  client:
+    service-url:
+      defaultZone: http://eureka-server:1001/eureka/
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+
+# spring
+spring:
+  application:
+    name: config-server
+
+  # config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/aaronrao/mall-config.git
+
+  # rabbitmq
+  rabbitmq:
+    host: ${rabbitmq.address}
+    port: 5672
+    username: guest
+    password: guest

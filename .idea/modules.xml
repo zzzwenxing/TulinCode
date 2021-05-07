@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tuling-juc-3/Atomic-Unsafe-vip-course04/Atomic-Unsafe-vip-course04.iml" filepath="$PROJECT_DIR$/tuling-juc-3/Atomic-Unsafe-vip-course04/Atomic-Unsafe-vip-course04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-juc-3/Executor-vip-course06/Executor-vip-course06.iml" filepath="$PROJECT_DIR$/tuling-juc-3/Executor-vip-course06/Executor-vip-course06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-juc-3/JMM&amp;volatile-vip-course01/JMM-volatile-vip-course-01.iml" filepath="$PROJECT_DIR$/tuling-juc-3/JMM&amp;volatile-vip-course01/JMM-volatile-vip-course-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TulinCode.iml" filepath="$PROJECT_DIR$/.idea/TulinCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-juc-3/collection-Queue-vip-course05/collection-Queue-vip-course05.iml" filepath="$PROJECT_DIR$/tuling-juc-3/collection-Queue-vip-course05/collection-Queue-vip-course05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designpattern/designpattern.iml" filepath="$PROJECT_DIR$/designpattern/designpattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-juc-3/java-vip-course.iml" filepath="$PROJECT_DIR$/tuling-juc-3/java-vip-course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-juc-3/juc-tools-vip-course03/juc-tools-vip-course03.iml" filepath="$PROJECT_DIR$/tuling-juc-3/juc-tools-vip-course03/juc-tools-vip-course03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-vip-spring/springannopriciple01/spring-anno-priciple-01.iml" filepath="$PROJECT_DIR$/tuling-vip-spring/springannopriciple01/spring-anno-priciple-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-juc-3/synchronized-Lock-AQS-vip-course02/synchronized-Lock-AQS-vip-course02.iml" filepath="$PROJECT_DIR$/tuling-juc-3/synchronized-Lock-AQS-vip-course02/synchronized-Lock-AQS-vip-course02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-03-rabbitmq/tulingvip-rabbitmq-quickstart/tulingvip-rabbitmq-quickstart.iml" filepath="$PROJECT_DIR$/tuling-03-rabbitmq/tulingvip-rabbitmq-quickstart/tulingvip-rabbitmq-quickstart.iml" />
+    </modules>
+  </component>
+</project>

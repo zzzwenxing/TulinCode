@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/tulingspc01-springboot-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/tulingspc01-springboot-war" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-multi-profiles/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-war/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-properties-mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-servletcompent/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-error/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-autoconfig-priciple/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-tulingredis-autoconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-redis-stater/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-springboot-test-autoconfig-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-tulingredis-stater/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc02-ssm-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc03-springboot-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-qks/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01-springboot-qks-study/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/tulingspc01-springbootmaven/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc01springbootmaven2/pom.xml" />
+        <option value="$PROJECT_DIR$/tulingspc03springbootaop/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

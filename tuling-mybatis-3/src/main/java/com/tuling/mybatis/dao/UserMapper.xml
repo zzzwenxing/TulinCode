@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tuling.mybatis.dao.UserMapper">
+
+    <select id="selectByid2" resultType="com.tuling.mybatis.dao.User">
+       select * from user where id=#{id}
+   </select>
+    <update id="updateByid2" parameterType="com.tuling.mybatis.dao.User">
+        update user set name=#{name} where id=#{id}
+    </update>
+    <insert id="insertUser" keyProperty="id" keyColumn="id" useGeneratedKeys="true"
+            parameterType="com.tuling.mybatis.dao.User">
+        insert into user (name ,createTime,updateTime) values (#{name},#{createTime},#{updateTime})
+    </insert>
+    <select id="selectIds"
+            resultType="com.tuling.mybatis.dao.User"
+            lang="org.mybatis.scripting.freemarker.FreeMarkerLanguageDriver">
+
+        select  * from user
+       where  id in(${ids?join(',')})
+
+    </select>
+
+</mapper>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tulingspc01-springboot-war:war">
+    <output-path>$PROJECT_DIR$/tulingspc01-springboot-war/target</output-path>
+    <root id="archive" name="boot4War.war">
+      <element id="artifact" artifact-name="tulingspc01-springboot-war:war exploded" />
+    </root>
+  </artifact>
+</component>

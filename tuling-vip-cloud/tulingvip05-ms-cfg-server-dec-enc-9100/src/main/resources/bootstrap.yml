@@ -1,0 +1,11 @@
+encrypt:
+  key: tuling
+
+spring:
+  security:
+    user:
+      name: root
+      password: 123456
+    basic:
+      enable: true
+

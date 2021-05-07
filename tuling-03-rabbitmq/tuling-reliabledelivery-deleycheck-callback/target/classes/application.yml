@@ -1,0 +1,52 @@
+#����Դ����
+spring:
+  datasource:
+      druid:
+        username: root
+        password: Zw726515
+        jdbcUrl: jdbc:mysql://localhost:3306/tuling-mq?serverTimezone=UTC
+        driverClassName: com.mysql.jdbc.Driver
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: SELECT 1 FROM DUAL
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        filters: stat,wall #\u914D\u7F6E\u8FC7\u6EE4\u5668
+        maxPoolPreparedStatementPerConnectionSize: 20
+        useGlobalDataSourceStat: true
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  rabbitmq:
+      host: 192.168.159.8
+      port: 5672
+      virtual-host: tuling
+      username: smlz
+      password: smlz
+      listener:
+        simple:
+          concurrency: 5
+          max-concurrency: 10
+          acknowledge-mode: manual
+          prefetch: 1
+          default-requeue-rejected: false
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+
+
+#����mybatis
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.tuling.mapper: debug
+server:
+  port: 8866

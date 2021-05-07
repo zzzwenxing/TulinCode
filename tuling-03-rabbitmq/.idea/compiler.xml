@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mq-reliabledelivery-deleycheck-order" />
+        <module name="mq-reliabledelivery-dtt-order" />
+        <module name="mq-reliabledelivery-dtt-order (1)" />
+        <module name="tuling-reliabledelivery-deleycheck-callback" />
+        <module name="tuling-reliabledelivery-deleycheck-product" />
+        <module name="tuling-reliabledelivery-deleycheck-product (1)" />
+        <module name="tuling-reliabledelivery-dtt-product" />
+        <module name="tuling-reliabledelivery-dtt-product (1)" />
+        <module name="tulingvip-rabbitmq" />
+        <module name="tulingvip-rabbitmq-advancedfeatures" />
+        <module name="tulingvip-rabbitmq-quickstart" />
+        <module name="tulingvip-rabbitmq-springwithrabbitmq" />
+        <module name="tulingvip-springboot-rabbitmq-consumer" />
+        <module name="tulingvip-springboot-rabbitmq-producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mq-reliabledelivery-deleycheck-order" target="1.8" />
+      <module name="mq-reliabledelivery-dtt-order" target="1.8" />
+      <module name="mq-reliabledelivery-dtt-order (1)" target="1.8" />
+      <module name="tuling-reliabledelivery-deleycheck-callback" target="1.8" />
+      <module name="tuling-reliabledelivery-deleycheck-product" target="1.8" />
+      <module name="tuling-reliabledelivery-deleycheck-product (1)" target="1.8" />
+      <module name="tuling-reliabledelivery-dtt-product" target="1.8" />
+      <module name="tuling-reliabledelivery-dtt-product (1)" target="1.8" />
+      <module name="tulingvip-rabbitmq" target="1.8" />
+      <module name="tulingvip-rabbitmq-advancedfeatures" target="1.8" />
+      <module name="tulingvip-rabbitmq-quickstart" target="1.8" />
+      <module name="tulingvip-rabbitmq-springwithrabbitmq" target="1.8" />
+      <module name="tulingvip-springboot-rabbitmq-consumer" target="1.8" />
+      <module name="tulingvip-springboot-rabbitmq-producer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

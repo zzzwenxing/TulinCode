@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/angle-spring-aop/angle-spring-aop.iml" filepath="$PROJECT_DIR$/angle-spring-aop/angle-spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springannopriciple01/springannopriciple01.iml" filepath="$PROJECT_DIR$/springannopriciple01/springannopriciple01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springannopriciple02ext/springannopriciple02ext.iml" filepath="$PROJECT_DIR$/springannopriciple02ext/springannopriciple02ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springannopriciple03ioc/springannopriciple03ioc.iml" filepath="$PROJECT_DIR$/springannopriciple03ioc/springannopriciple03ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springannopriciple04aop/springannopriciple04aop.iml" filepath="$PROJECT_DIR$/springannopriciple04aop/springannopriciple04aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springannopriciple05trans/springannopriciple05trans.iml" filepath="$PROJECT_DIR$/springannopriciple05trans/springannopriciple05trans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springannopriciple06logging/springannopriciple06logging.iml" filepath="$PROJECT_DIR$/springannopriciple06logging/springannopriciple06logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvip-springwebflux/tulingvip-springwebflux.iml" filepath="$PROJECT_DIR$/tulingvip-springwebflux/tulingvip-springwebflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingvipspringannopriciple.iml" filepath="$PROJECT_DIR$/tulingvipspringannopriciple.iml" />
+    </modules>
+  </component>
+</project>

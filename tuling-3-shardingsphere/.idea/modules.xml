@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/tl-shardingjdbc-quickstart.iml" filepath="$PROJECT_DIR$/tl-shardingjdbc-quickstart/tl-shardingjdbc-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuling-3-shardingsphere.iml" filepath="$PROJECT_DIR$/tuling-3-shardingsphere.iml" />
+    </modules>
+  </component>
+</project>

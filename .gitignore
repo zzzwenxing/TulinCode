@@ -1,0 +1,5 @@
+# Project exclude paths
+/designpattern/target/
+/tuling-03-rabbitmq/tulingvip-rabbitmq-quickstart/target/
+/tuling-juc-3/JMM&volatile-vip-course01/target/
+/tuling-vip-spring/springannopriciple01/target/

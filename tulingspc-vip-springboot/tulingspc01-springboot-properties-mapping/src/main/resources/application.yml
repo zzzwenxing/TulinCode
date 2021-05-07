@@ -1,0 +1,17 @@
+person:
+  name: zhangsan
+  age: 18
+  salary: 8888.88
+  car:
+    carName: 奥迪A6L
+    carBrand: 奥迪
+  hobbit:
+    - 篮球
+    - rap
+    - 唱歌
+    - 保健
+  maps:
+    k1: v1
+    k2: v2
+  birthDate: 1991/08/21
+  marriage: true

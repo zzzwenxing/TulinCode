@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tuling.mapper.MsgContentMapper">
+
+    <insert id="saveMsgContent" parameterType="com.tuling.entity.MessageContent">
+        INSERT INTO message_content(msg_id,create_time,update_time,msg_status,exchange,routing_key,err_cause,order_no,max_retry,current_retry,product_no)
+        VALUES(#{msgId},#{createTime},#{updateTime},#{msgStatus},#{exchange},#{routingKey},#{errCause},#{orderNo},#{maxRetry},#{currentRetry},#{productNo})
+    </insert>
+
+    <select id="qryMessageContentById" parameterType="string" resultType="com.tuling.entity.MessageContent">
+        select * from message_content where msg_id=#{msgId}
+    </select>
+
+</mapper>

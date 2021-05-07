@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-order
+  # config
+  cloud:
+    config:
+      uri: http://config-server:2001
+      profile: dev
+      label: master

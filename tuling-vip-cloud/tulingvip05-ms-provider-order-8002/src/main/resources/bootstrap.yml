@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ms-provider-order
+  cloud:
+    config:
+      uri: http://localhost:9100
+      profile: dev
+      label: master

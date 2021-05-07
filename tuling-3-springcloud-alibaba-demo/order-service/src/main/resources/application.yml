@@ -1,0 +1,29 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: order-service
+
+  cloud:
+    nacos:
+      discovery:
+        # 指定nacos server的地址
+        server-addr: 192.168.31.60:8848
+        # 指定集群名称
+        cluster-name: BJ
+        metadata:
+          version: v1
+    sentinel:
+      transport:
+        # 配置sentinel控制台的地址
+        dashboard: 192.168.31.60:8080
+        #指定和控制台通信的IP
+        #如不配置，会自动选择一个IP注册
+        client-ip:  192.168.31.35
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

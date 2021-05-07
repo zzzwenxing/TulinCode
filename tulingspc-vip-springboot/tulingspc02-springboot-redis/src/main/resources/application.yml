@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: 47.104.128.12
+    port: 6379
+    password: 123456
+    jedis:
+      pool:
+        max-active: 20
+        max-idle: 10
+        min-idle: 5

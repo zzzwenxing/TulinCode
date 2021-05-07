@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/java/com/tl/it/edu/controller/ShardingController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/java/com/tl/it/edu/entity/Address.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/java/com/tl/it/edu/entity/Order.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/java/com/tl/it/edu/entity/OrderItem.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/java/com/tl/it/edu/entity/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/java/com/tl/it/edu/mapper/OrderItemMapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/java/com/tl/it/edu/service/OrderServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tl-shardingjdbc-quickstart/src/main/resources/application-sharding-master-slave.properties" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<inputStream>
+    <properties>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/tl-vip"/>
+    </properties>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driverClass}"/>
+                <property name="url" value="${url}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--        <mapper class="com.xm.mapper.UserMapper"/>-->
+        <mapper resource="mybatis/UserMapper.xml"/>
+    </mappers>
+</inputStream>

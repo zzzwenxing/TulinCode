@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tl-rocketmq-base" />
+        <module name="tl-springboot-rocketmq" />
+        <module name="tl-springboot-rocketmq-consumer" />
+        <module name="tl-springboot-rocketmq-producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tl-distributed-course" target="1.5" />
+      <module name="tl-rocketmq-base" target="1.8" />
+      <module name="tl-shardingsphere" target="1.8" />
+      <module name="tl-springboot-rocketmq" target="1.8" />
+      <module name="tl-springboot-rocketmq-consumer" target="1.8" />
+      <module name="tl-springboot-rocketmq-producer" target="1.8" />
+      <module name="tuling-3-rocketmq" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

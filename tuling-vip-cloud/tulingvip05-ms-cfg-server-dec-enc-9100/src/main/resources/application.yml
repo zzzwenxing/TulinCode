@@ -1,0 +1,15 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: tulingvip05-ms-cfg-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://git.jiagouedu.com/java-vip/tuling-vip-cloud-config.git
+          username: sima
+          password: 123456
+
+
+

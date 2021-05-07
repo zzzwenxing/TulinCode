@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="designpattern" />
+        <module name="tulingvip-rabbitmq-quickstart" />
+        <module name="spring-anno-priciple-01" />
+        <module name="Atomic-Unsafe-vip-course04" />
+        <module name="juc-tools-vip-course03" />
+        <module name="collection-Queue-vip-course05" />
+        <module name="Executor-vip-course06" />
+        <module name="JMM-volatile-vip-course-01" />
+        <module name="synchronized-Lock-AQS-vip-course02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Atomic-Unsafe-vip-course04" target="1.8" />
+      <module name="collection-Queue-vip-course05" target="1.5" />
+      <module name="designpattern" target="1.8" />
+      <module name="Executor-vip-course06" target="1.5" />
+      <module name="java-vip-course" target="1.5" />
+      <module name="JMM-volatile-vip-course-01" target="1.8" />
+      <module name="juc-tools-vip-course03" target="1.5" />
+      <module name="spring-anno-priciple-01" target="1.8" />
+      <module name="synchronized-Lock-AQS-vip-course02" target="1.8" />
+      <module name="tulingvip-rabbitmq-quickstart" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Atomic-Unsafe-vip-course04" options="&quot;-verbose -bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre\lib\rt.jar&quot;" />
+      <module name="tulingvip-rabbitmq-quickstart" options="-parameters" />
+    </option>
+  </component>
+</project>

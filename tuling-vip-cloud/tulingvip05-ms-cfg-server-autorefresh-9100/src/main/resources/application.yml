@@ -1,0 +1,22 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: tulingvip05-ms-cfg-auto-refresh-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://git.jiagouedu.com/java-vip/tuling-vip-cloud-config.git
+          username: sima
+          password: 123456
+  rabbitmq:
+    host: 47.104.128.12
+    port: 5672
+    virtual-host: tulingVip
+    username: guest
+    password: guest
+    connection-timeout: 10000
+    template:
+      mandatory: true
+

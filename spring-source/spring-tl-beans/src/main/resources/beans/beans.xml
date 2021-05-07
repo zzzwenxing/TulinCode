@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="instanceA"  class="com.tuling.circulardependencies.InstanceA"  >
+		<property name="instanceB"  ref="instanceB"></property>
+	</bean>
+
+
+	<bean id="instanceB" class="com.tuling.circulardependencies.InstanceB">
+		<property name="instanceA"  ref="instanceA"></property>
+	</bean>
+
+<!--
+	<bean id="instanceA"  class="com.tuling.circulardependencies.InstanceA" >
+		<constructor-arg name="instanceB"  ref="instanceB"></constructor-arg>
+	</bean>
+
+
+
+
+	<bean id="instanceB" class="com.tuling.circulardependencies.InstanceB" >
+		<constructor-arg name="instanceA"  ref="instanceA"></constructor-arg>
+	</bean>-->
+</beans>

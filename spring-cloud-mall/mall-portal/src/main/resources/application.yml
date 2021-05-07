@@ -1,0 +1,66 @@
+# tomcat
+server:
+  port: 9001
+
+# eureka
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+  client:
+    service-url:
+      defaultZone: http://eureka-server:1001/eureka/
+
+# feign
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 5000
+
+# hystrix
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+# ribbon
+service-product:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.BestAvailableRule
+
+service-member:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.BestAvailableRule
+
+service-order:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.BestAvailableRule
+
+# zuul
+zuul:
+  ignored-services: '*'
+  routes:
+    service-product: /apigateway/product/**
+    service-member: /apigateway/member/**
+    service-order: /apigateway/order/**
+  ignored-patterns: /service-*/**
+  sensitive-headers:
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# spring
+spring:
+  application:
+    name: mall-portal

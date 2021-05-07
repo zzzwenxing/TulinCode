@@ -1,0 +1,21 @@
+spring:
+    application:
+      name: ms-provider-order
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ms-provider-order-8002
+  client:
+    service-url:
+      defaultZone: http://www.eureka9000.com:9000/eureka/
+#配置mybatis
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+

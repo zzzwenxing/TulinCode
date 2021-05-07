@@ -1,0 +1,31 @@
+spring:
+  datasource:
+        username: root
+        password: Zw726515
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/angle-dist-trans-order
+  redis:
+      host: 127.0.0.1
+      port: 6379
+      jedis:
+        pool:
+          max-active: 20
+          max-idle: 10
+          min-idle: 5
+      timeout: 5000
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+
+angle:
+  dt:
+    delay: 1
+    initial-delay: 1
+    wating-time: 5
+server:
+  port: 8066
+
+
+

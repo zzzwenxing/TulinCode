@@ -1,0 +1,25 @@
+
+//------ 6协议 调用
+doInvoke:77, DubboInvoker {org.apache.dubbo.rpc.protocol.dubbo}
+invoke:155, AbstractInvoker {org.apache.dubbo.rpc.protocol}
+//------ 5异步转同步
+invoke:52, AsyncToSyncInvoker {org.apache.dubbo.rpc.protocol} // 异步转同步 ,返回结果之前进行阻塞调用线程
+//----- 4过滤器链
+invoke:92, MonitorFilter {org.apache.dubbo.monitor.support}  // 过滤链-> 监控器
+invoke:54, FutureFilter {org.apache.dubbo.rpc.protocol.dubbo.filter}    //过滤链-> 回调参数
+invoke:14, ProviderHelloFilter {com.tuling.dubbo}  // 过滤链-> 自定义过滤器
+invoke:60, ConsumerContextFilter {org.apache.dubbo.rpc.filter} // 过滤链-> 消费者环境初始化
+//------3集群处理
+doInvoke:82, FailoverClusterInvoker {org.apache.dubbo.rpc.cluster.support} // 集服-失败重试
+invoke:248, AbstractClusterInvoker {org.apache.dubbo.rpc.cluster.support} //
+//----- Mock服务
+invoke:78, MockClusterInvoker {org.apache.dubbo.rpc.cluster.support.wrapper} // mock 服务
+
+//----- 2动态代理 --透明化
+invoke:55, InvokerInvocationHandler {org.apache.dubbo.rpc.proxy}// 代理的中间接口
+getUser:-1, proxy0 {org.apache.dubbo.common.bytecode} // 代理对象
+//----- 1调用客户端
+main:53, DubboClient {com.tuling.dubbo}  // 客户端
+
+RegistryProtocol --> Cluster --> MockClusterInvoker:ClusterInvoker->DubboProtocol->FilterChain:AsyncToSyncInvoker:DubboInvoker
+协议--》(注册协议)--->MockClusterInvoker ---》ClusterInvoker---> RegistryDirectory --->(DubboProtcol)->FilterChain-->DubboInvoker

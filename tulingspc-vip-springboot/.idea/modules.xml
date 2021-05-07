@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tulingspc-springboot.iml" filepath="$PROJECT_DIR$/tulingspc-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-error/tulingspc01-springboot-error.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-error/tulingspc01-springboot-error.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-jsp/tulingspc01-springboot-jsp.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-jsp/tulingspc01-springboot-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-maven2/tulingspc01-springboot-maven2.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-maven2/tulingspc01-springboot-maven2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-mavne-study/tulingspc01-springboot-mavne-study.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-mavne-study/tulingspc01-springboot-mavne-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-multi-profiles/tulingspc01-springboot-multi-profiles.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-multi-profiles/tulingspc01-springboot-multi-profiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-properties-mapping/tulingspc01-springboot-properties-mapping.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-properties-mapping/tulingspc01-springboot-properties-mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-qks/tulingspc01-springboot-qks.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-qks/tulingspc01-springboot-qks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-qks-study/tulingspc01-springboot-qks-study.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-qks-study/tulingspc01-springboot-qks-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-servletcompent/tulingspc01-springboot-servletcompent.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-servletcompent/tulingspc01-springboot-servletcompent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-war/tulingspc01-springboot-war.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-war/tulingspc01-springboot-war.iml" />
+      <module fileurl="file://D:\work_space\idea_space\tulingspc-springboot\tulingspc01-springboot-jsp\tulingspc01-springboot-war (1).iml" filepath="D:\work_space\idea_space\tulingspc-springboot\tulingspc01-springboot-jsp\tulingspc01-springboot-war (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc01-springboot-web/tulingspc01-springboot-web.iml" filepath="$PROJECT_DIR$/tulingspc01-springboot-web/tulingspc01-springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-springboot-autoconfig-priciple/tulingspc02-springboot-autoconfig-priciple.iml" filepath="$PROJECT_DIR$/tulingspc02-springboot-autoconfig-priciple/tulingspc02-springboot-autoconfig-priciple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-springboot-jdbc/tulingspc02-springboot-jdbc.iml" filepath="$PROJECT_DIR$/tulingspc02-springboot-jdbc/tulingspc02-springboot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-springboot-mybatis/tulingspc02-springboot-mybatis.iml" filepath="$PROJECT_DIR$/tulingspc02-springboot-mybatis/tulingspc02-springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-springboot-rabbitmq/tulingspc02-springboot-rabbitmq.iml" filepath="$PROJECT_DIR$/tulingspc02-springboot-rabbitmq/tulingspc02-springboot-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-springboot-redis/tulingspc02-springboot-redis.iml" filepath="$PROJECT_DIR$/tulingspc02-springboot-redis/tulingspc02-springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-springboot-swagger2/tulingspc02-springboot-swagger2.iml" filepath="$PROJECT_DIR$/tulingspc02-springboot-swagger2/tulingspc02-springboot-swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-springboot-test-autoconfig-starter/tulingspc02-springboot-test-autoconfig-starter.iml" filepath="$PROJECT_DIR$/tulingspc02-springboot-test-autoconfig-starter/tulingspc02-springboot-test-autoconfig-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-ssm-redis/tulingspc02-ssm-redis.iml" filepath="$PROJECT_DIR$/tulingspc02-ssm-redis/tulingspc02-ssm-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-tulingredis-autoconfig/tulingspc02-tulingredis-autoconfig.iml" filepath="$PROJECT_DIR$/tulingspc02-tulingredis-autoconfig/tulingspc02-tulingredis-autoconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc02-tulingredis-stater/tulingspc02-tulingredis-stater.iml" filepath="$PROJECT_DIR$/tulingspc02-tulingredis-stater/tulingspc02-tulingredis-stater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tulingspc03-springboot-aop/tulingspc03-springboot-aop.iml" filepath="$PROJECT_DIR$/tulingspc03-springboot-aop/tulingspc03-springboot-aop.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+
+#数据源配置
+spring:
+  datasource:
+      druid:
+        username: root
+        password: Zw726515
+        jdbcUrl: jdbc:mysql://localhost:3306/tuling-mq
+        driverClassName: com.mysql.jdbc.Driver
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
+        maxWait: 60000
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: SELECT 1 FROM DUAL
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        filters: stat,wall #\u914D\u7F6E\u8FC7\u6EE4\u5668
+        maxPoolPreparedStatementPerConnectionSize: 20
+        useGlobalDataSourceStat: true
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  #rabbitmq生产端配置
+  rabbitmq:
+    host: 192.168.159.8
+    port: 5672
+    virtual-host: tuling
+    username: smlz
+    password: smlz
+    publisher-confirms: true
+    publisher-returns: true
+    #防止不可达消息被删除
+    template:
+      mandatory: true
+    connection-timeout: 1000000
+
+
+#配置mybatis
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.tuling.mapper: debug
+
+
+

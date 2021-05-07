@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+    <!-- 默认构造函数数构建-->
+    <!--<bean class="com.tuling.spring.HelloSpring"></bean>
+
+    &lt;!&ndash; 指定构造函数构建&ndash;&gt;
+    <bean class="com.tuling.spring.HelloSpring" autowire="default">
+
+    </bean>
+
+    <bean id="hi" name="hi2" class="com.tuling.spring.Hi"></bean>
+
+    <bean class="com.tuling.spring.Hi"></bean>
+    &lt;!&ndash; 静态工厂方法创建 &ndash;&gt;
+    <bean class="com.tuling.spring.HelloSpring" factory-method="build">
+        <constructor-arg name="type" value="A"></constructor-arg>
+    </bean>
+
+    <bean id="driver" class="com.tuling.spring.DriverFactoryBean">
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306"></property>
+    </bean>-->
+
+    <bean class="com.tuling.spring.HelloSpring">
+        <property name="hi" ref="hi"/>
+    </bean>
+
+    <bean id="hi" class="com.tuling.spring.Hi"></bean>
+
+</beans>

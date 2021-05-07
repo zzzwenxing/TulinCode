@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="angle-spring-aop" />
+        <module name="springannopriciple01" />
+        <module name="springannopriciple02ext" />
+        <module name="springannopriciple03ioc" />
+        <module name="springannopriciple04aop" />
+        <module name="springannopriciple05trans" />
+        <module name="springannopriciple06logging" />
+        <module name="tulingvip-springwebflux" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="angle-spring-aop" target="1.5" />
+      <module name="springannopriciple01" target="1.8" />
+      <module name="springannopriciple02ext" target="1.7" />
+      <module name="springannopriciple03ioc" target="1.5" />
+      <module name="springannopriciple04aop" target="1.5" />
+      <module name="springannopriciple05trans" target="1.5" />
+      <module name="springannopriciple06logging" target="1.5" />
+      <module name="tulingvip-springwebflux" target="1.8" />
+      <module name="tulingvipspringannopriciple" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

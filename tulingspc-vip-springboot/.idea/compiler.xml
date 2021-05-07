@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tulingspc01-springboot-error" />
+        <module name="tulingspc01-springboot-jdbc" />
+        <module name="tulingspc01-springboot-jsp" />
+        <module name="tulingspc01-springboot-maven2" />
+        <module name="tulingspc01-springboot-mavne-study" />
+        <module name="tulingspc01-springboot-multi-profiles" />
+        <module name="tulingspc01-springboot-properties-mapping" />
+        <module name="tulingspc01-springboot-qks" />
+        <module name="tulingspc01-springboot-qks-study" />
+        <module name="tulingspc01-springboot-servletcompent" />
+        <module name="tulingspc01-springboot-war" />
+        <module name="tulingspc01-springboot-war (1)" />
+        <module name="tulingspc01-springboot-web" />
+        <module name="tulingspc02-springboot-autoconfig-priciple" />
+        <module name="tulingspc02-springboot-jdbc" />
+        <module name="tulingspc02-springboot-mybatis" />
+        <module name="tulingspc02-springboot-rabbitmq" />
+        <module name="tulingspc02-springboot-redis" />
+        <module name="tulingspc02-springboot-redis-stater" />
+        <module name="tulingspc02-springboot-swagger2" />
+        <module name="tulingspc02-springboot-test-autoconfig-starter" />
+        <module name="tulingspc02-ssm-redis" />
+        <module name="tulingspc02-tulingredis-autoconfig" />
+        <module name="tulingspc02-tulingredis-stater" />
+        <module name="tulingspc03-springboot-aop" />
+        <module name="tulingspcspringbootmaven" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tulingspc-springboot" target="1.8" />
+      <module name="tulingspc01-springboot-error" target="1.8" />
+      <module name="tulingspc01-springboot-jdbc" target="1.8" />
+      <module name="tulingspc01-springboot-jsp" target="1.8" />
+      <module name="tulingspc01-springboot-maven2" target="1.8" />
+      <module name="tulingspc01-springboot-mavne-study" target="1.8" />
+      <module name="tulingspc01-springboot-multi-profiles" target="1.8" />
+      <module name="tulingspc01-springboot-properties-mapping" target="1.8" />
+      <module name="tulingspc01-springboot-qks" target="1.8" />
+      <module name="tulingspc01-springboot-qks-study" target="1.8" />
+      <module name="tulingspc01-springboot-quick-starter" target="1.8" />
+      <module name="tulingspc01-springboot-servletcompent" target="1.8" />
+      <module name="tulingspc01-springboot-war" target="1.8" />
+      <module name="tulingspc01-springboot-war (1)" target="1.8" />
+      <module name="tulingspc01-springboot-web" target="1.8" />
+      <module name="tulingspc01-springbootmaven" target="1.8" />
+      <module name="tulingspc01springbootmaven2" target="1.8" />
+      <module name="tulingspc02-springboot-autoconfig-priciple" target="1.8" />
+      <module name="tulingspc02-springboot-jdbc" target="1.8" />
+      <module name="tulingspc02-springboot-mybatis" target="1.8" />
+      <module name="tulingspc02-springboot-rabbitmq" target="1.8" />
+      <module name="tulingspc02-springboot-redis" target="1.8" />
+      <module name="tulingspc02-springboot-redis-stater" target="1.8" />
+      <module name="tulingspc02-springboot-swagger2" target="1.8" />
+      <module name="tulingspc02-springboot-test-autoconfig-starter" target="1.8" />
+      <module name="tulingspc02-ssm-redis" target="1.8" />
+      <module name="tulingspc02-tulingredis-autoconfig" target="1.8" />
+      <module name="tulingspc02-tulingredis-stater" target="1.8" />
+      <module name="tulingspc03-springboot-aop" target="1.8" />
+      <module name="tulingspc03springbootaop" target="1.8" />
+      <module name="tulingspcspringbootmaven" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
